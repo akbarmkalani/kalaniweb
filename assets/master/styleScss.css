@@ -1,0 +1,574 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@700&family=Libre+Baskerville:ital@1&family=Montserrat:ital@1&family=Playfair+Display:ital,wght@0,900;1,900&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@700&family=Libre+Baskerville:ital@1&family=Montserrat:ital@1&family=Playfair+Display:ital,wght@0,900;1,900&family=Roboto:ital,wght@0,400;1,900&display=swap");
+* {
+  font-family: "Courgette", cursive;
+  font-family: "Kalam", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* font-family: 'Courgette', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif; */
+/*#2FBF71  */
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+aside {
+  height: 100vh;
+  top: 0;
+  position: fixed;
+  background-color: #000 !important;
+}
+aside > section > div > #top-section {
+  position: relative;
+  height: 130px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+aside > section > div figure {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  height: 140px;
+}
+aside > section > div figure img {
+  width: 100px;
+  height: 100px;
+  outline: 6px solid white;
+}
+aside > section > div figure > figcaption > h1 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+#sidbar {
+  height: 450px;
+}
+#sidbar > nav > ul > li {
+  border-bottom: 0.8px solid rgb(48, 48, 48);
+}
+#sidbar > nav > ul > li > a {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: 0.4s;
+}
+#sidbar > nav > ul > li > a:hover {
+  color: #2FBF71 !important;
+}
+#sidbar > nav > ul > li > a > i {
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+.social {
+  height: 105px;
+}
+.social ul {
+  height: 100%;
+}
+.social ul div {
+  height: 100%;
+}
+.social ul div > li > a {
+  color: white;
+  transition: 0.4s;
+}
+.social ul div > li > a:hover {
+  color: #2FBF71 !important;
+}
+.social ul div > li i {
+  font-size: 30px;
+}
+
+/*  top header ========== */
+.header {
+  height: 78px;
+  width: 100%;
+  position: fixed !important;
+  background-color: #212529 !important;
+  top: 0;
+  z-index: 999;
+}
+.header > ul:nth-of-type(1) > li > a {
+  font-weight: bold;
+  font-family: "Courgette", cursive;
+  letter-spacing: 5px;
+  font-size: 35px;
+}
+.header > ul:nth-of-type(2) > li {
+  /*                                background-color: #2FBF71;  */
+  width: 60px !important;
+  height: 50px !important;
+  margin-right: 20px;
+  font-size: 45px !important;
+}
+
+.navbar-nav > li > a {
+  text-transform: uppercase;
+}
+.navbar-nav > li > a:hover {
+  color: #2FBF71 !important;
+}
+
+.top-img {
+  padding-top: 120px;
+}
+.top-img .text-about > h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.top-img .text-about > p {
+  color: #bfc0c1;
+  line-height: 26px;
+}
+.top-img .text-about > a {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  transition: 0.4s;
+  font-family: "Roboto", sans-serif;
+}
+.top-img .text-about > a:hover {
+  background-color: white !important;
+  color: #2FBF71 !important;
+}
+.top-img .text-about > a:hover span {
+  border-color: #2FBF71;
+}
+.top-img .text-about > a > span {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-right: 6px solid white;
+  border-bottom: 6px solid white;
+  bottom: -5px;
+  right: -5px;
+  transition: 0.4s;
+}
+
+/*  .t-img{
+    figure{
+        img{
+
+            width: 450px;
+            height: 450px;
+        }
+    }
+ } */
+.btn > div > a {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  transition: 0.4s;
+  font-family: "Roboto", sans-serif;
+}
+.btn > div > a:hover {
+  background-color: white !important;
+  color: #2FBF71 !important;
+}
+.btn > div > a:hover span {
+  border-color: #2FBF71;
+}
+.btn > div > a > span {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-right: 6px solid white;
+  border-bottom: 6px solid white;
+  bottom: -5px;
+  right: -5px;
+  transition: 0.4s;
+}
+
+.para > h1 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+}
+.para > h1 > span {
+  display: flex;
+  width: 100px;
+  height: 1px;
+  background-color: #2FBF71;
+  position: relative;
+}
+.para > h1 > span::after {
+  content: "";
+  display: flex;
+  position: absolute;
+  left: 100%;
+  top: -1.6px;
+  width: 5px;
+  height: 5px;
+  background-color: #2FBF71;
+  border-radius: 50%;
+}
+.para > p {
+  color: #bfc0c1;
+}
+.para > div > section > p > span {
+  font-size: 15px;
+}
+.para > div > section > p strong {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+P {
+  color: #bfc0c1;
+  line-height: 27px;
+}
+
+.skill div {
+  background-color: #000;
+}
+.skill span {
+  font-size: 13px;
+  position: relative;
+}
+.skill span::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  border-top: 5px solid #165934;
+  border-left: 5px solid transparent;
+}
+.skill span h3 {
+  font-family: "Roboto", sans-serif;
+}
+.skill span p a {
+  position: relative;
+  border-bottom: 2px solid #2FBF71 !important;
+}
+
+.view section {
+  height: 3px;
+  width: 100%;
+  background-color: #f4007a !important;
+}
+.view section span {
+  display: flex;
+  background-color: #2FBF71;
+  height: 100%;
+  width: 55%;
+  position: relative;
+}
+.view section span::after {
+  content: "";
+  position: absolute;
+  top: -1.9px;
+  left: 100%;
+  display: flex;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  background-color: #2FBF71;
+}
+
+.view section {
+  height: 3px;
+  width: 100%;
+  background-color: #636263 !important;
+}
+.view section span {
+  display: flex;
+  background-color: #2FBF71;
+  height: 100%;
+  width: 98%;
+}
+
+.view1 section {
+  height: 3px;
+  width: 100%;
+  background-color: #636263 !important;
+}
+.view1 section span {
+  display: flex;
+  background-color: #2FBF71;
+  height: 100%;
+  width: 90%;
+  position: relative;
+}
+.view1 section span::after {
+  content: "";
+  position: absolute;
+  top: -1.9px;
+  left: 100%;
+  display: flex;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  background-color: #2FBF71;
+}
+
+.view2 section {
+  height: 3px;
+  width: 100%;
+  background-color: #636263 !important;
+}
+.view2 section span {
+  display: flex;
+  background-color: #2FBF71;
+  height: 100%;
+  width: 85%;
+  position: relative;
+}
+.view2 section span::after {
+  content: "";
+  position: absolute;
+  top: -1.9px;
+  left: 100%;
+  display: flex;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  background-color: #2FBF71;
+}
+
+.view3 section {
+  height: 3px;
+  width: 100%;
+  background-color: #636263 !important;
+}
+.view3 section span {
+  display: flex;
+  background-color: #2FBF71;
+  height: 100%;
+  width: 55%;
+  position: relative;
+}
+.view3 section span::after {
+  content: "";
+  position: absolute;
+  top: -1.9px;
+  left: 100%;
+  display: flex;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  background-color: #2FBF71;
+}
+
+.view4 section {
+  height: 3px;
+  width: 100%;
+  background-color: #636263 !important;
+}
+.view4 section span {
+  display: flex;
+  background-color: #2FBF71;
+  height: 100%;
+  width: 15%;
+  position: relative;
+}
+.view4 section span::after {
+  content: "";
+  position: absolute;
+  top: -1.9px;
+  left: 100%;
+  display: flex;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  background-color: #2FBF71;
+}
+
+.view5 section {
+  height: 3px;
+  width: 100%;
+  background-color: #636263 !important;
+}
+.view5 section span {
+  display: flex;
+  background-color: #2FBF71;
+  height: 100%;
+  width: 5%;
+  position: relative;
+}
+.view5 section span::after {
+  content: "";
+  position: absolute;
+  top: -1.9px;
+  left: 100%;
+  display: flex;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  background-color: #2FBF71;
+}
+
+.what-i > section:nth-of-type(2) > div > section > div {
+  background-color: #000;
+  transition: 1s;
+}
+.what-i > section:nth-of-type(2) > div > section > div:hover {
+  background-color: #2FBF71;
+}
+
+.fortfolio div:nth-of-type(2) > section > figure {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.fortfolio div:nth-of-type(2) > section > figure::before, .fortfolio div:nth-of-type(2) > section > figure::after {
+  content: "";
+  position: absolute;
+  display: flex;
+  width: 0%;
+  height: 0%;
+  background-color: rgba(220, 53, 70, 0.7294117647);
+  transition: 0.4s;
+}
+.fortfolio div:nth-of-type(2) > section > figure::before {
+  top: 0;
+  left: 0;
+}
+.fortfolio div:nth-of-type(2) > section > figure::after {
+  bottom: 14px;
+  right: 0;
+  background-color: rgba(220, 53, 70, 0.7294117647);
+}
+.fortfolio div:nth-of-type(2) > section > figure:hover::after {
+  height: 42.2%;
+  width: 100%;
+}
+.fortfolio div:nth-of-type(2) > section > figure:hover::before {
+  height: 50%;
+  width: 100%;
+}
+.fortfolio div:nth-of-type(2) > section > figure:hover span {
+  opacity: 1;
+  visibility: visible;
+}
+.fortfolio div:nth-of-type(2) > section > figure > a > span {
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
+  z-index: 11;
+  /* op: 0 !important; */
+}
+
+.blog > div:nth-of-type(2) > section > figure {
+  overflow: hidden;
+}
+.blog > div:nth-of-type(2) > section > figure:hover img {
+  transform: scale(1.1);
+  filter: grayscale(100%);
+}
+.blog > div:nth-of-type(2) > section > figure > img {
+  transition: 1s;
+}
+.blog > div:nth-of-type(2) > section > figure > figcaption {
+  right: 0;
+  bottom: -10px;
+}
+.blog > div:nth-of-type(2) > section > figure > figcaption > span {
+  font-size: 12px;
+}
+.blog > div:nth-of-type(2) > section > figure > figcaption > a {
+  font-size: 21px;
+  line-height: 29px;
+}
+.blog > div:nth-of-type(2) > section > figure > figcaption > a:hover {
+  text-decoration: underline;
+}
+
+/* =============================== */
+.underline > h3 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 5px;
+}
+.underline > h3 > span {
+  display: flex;
+  width: 80px;
+  height: 2px;
+  background-color: #2FBF71;
+  position: relative;
+}
+.underline > h3 > span::after {
+  content: "";
+  display: flex;
+  position: absolute;
+  left: 99%;
+  top: -1.6px;
+  width: 6px;
+  height: 6px;
+  background-color: #2FBF71;
+  border-radius: 50%;
+}
+
+/* ========== */
+.bg {
+  background-color: #000;
+}
+.bg > div > ul > li > a {
+  position: relative;
+  font-size: 19px;
+}
+.bg > div > ul > li > a::after {
+  content: "";
+  display: flex;
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  width: 35%;
+  height: 2%;
+  background-color: #2FBF71;
+}
+.bg > div > ul > li > a:hover::after {
+  background-color: white;
+}
+.bg > div > ul > li > a:hover i {
+  color: #2FBF71;
+}
+.bg > div > ul > li > a > i {
+  font-size: 40px;
+  padding-right: 15px;
+}
+
+form > div > input {
+  background: none !important;
+  outline: none;
+}
+form > div > input:nth-of-type(1), form > div > input:nth-of-type(2) {
+  width: 44.6%;
+}
+form > div textarea {
+  background: none;
+  outline: none;
+}
+
+.scroll {
+  bottom: -30px;
+  right: -32px;
+}
+.scroll a {
+  color: #f4007a !important;
+}
+
+/* 
+ A well-designed website should not only look attractive and be aesthetically pleasing, but it should also be intuitive, user-friendly, and easily navigable. In other words, good design should be both aesthetically appealing and functional.I believ that a website's design should be focused on solving the user's problems and making their experience as seamless as possible. *//*# sourceMappingURL=styleScss.css.map */
+
+
+
