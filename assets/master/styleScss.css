@@ -378,7 +378,7 @@ P {
   display: flex;
   background-color: #2FBF71;
   height: 100%;
-  width: 15%;
+  width: 65%;
   position: relative;
 }
 .view4 section span::after {
@@ -402,7 +402,7 @@ P {
   display: flex;
   background-color: #2FBF71;
   height: 100%;
-  width: 5%;
+  width: 60%;
   position: relative;
 }
 .view5 section span::after {
@@ -419,42 +419,49 @@ P {
 
 .what-i > section:nth-of-type(2) > div > section > div {
   background-color: #000;
-  transition: 1s;
+  transition: 0.4s;
 }
 .what-i > section:nth-of-type(2) > div > section > div:hover {
-  background-color: #2FBF71;
+  background-color: #08321b;
 }
 
 .fortfolio div:nth-of-type(2) > section > figure {
   position: relative;
   height: 100%;
   width: 100%;
+  /*  &::before,&::after{
+       content: '';
+       position: absolute;
+       display: flex;
+       width: 0%;
+       height: 0%;
+       background-color: #F5CE4D;
+      transition: .4s;
+   } */
+  /*  &::before{
+       top: 0;
+       left: 0;
+   }
+   &::after{
+       bottom: 14px;
+       right: 0;
+       background-color: #F5CE4D;
+   }
+   &:hover::after{
+       height: 42.2%;
+       width: 100%;
+   }
+   &:hover::before{
+       height: 50%;
+       width: 100%;
+   } */
 }
-.fortfolio div:nth-of-type(2) > section > figure::before, .fortfolio div:nth-of-type(2) > section > figure::after {
-  content: "";
-  position: absolute;
-  display: flex;
-  width: 0%;
-  height: 0%;
-  background-color: rgba(220, 53, 70, 0.7294117647);
+.fortfolio div:nth-of-type(2) > section > figure:hover img {
+  filter: grayscale(0);
+}
+.fortfolio div:nth-of-type(2) > section > figure > a > img {
+  filter: grayscale(100%);
   transition: 0.4s;
-}
-.fortfolio div:nth-of-type(2) > section > figure::before {
-  top: 0;
-  left: 0;
-}
-.fortfolio div:nth-of-type(2) > section > figure::after {
-  bottom: 14px;
-  right: 0;
-  background-color: rgba(220, 53, 70, 0.7294117647);
-}
-.fortfolio div:nth-of-type(2) > section > figure:hover::after {
-  height: 42.2%;
-  width: 100%;
-}
-.fortfolio div:nth-of-type(2) > section > figure:hover::before {
-  height: 50%;
-  width: 100%;
 }
 .fortfolio div:nth-of-type(2) > section > figure:hover span {
   opacity: 1;
@@ -474,10 +481,11 @@ P {
 }
 .blog > div:nth-of-type(2) > section > figure:hover img {
   transform: scale(1.1);
-  filter: grayscale(100%);
+  filter: grayscale(0);
 }
 .blog > div:nth-of-type(2) > section > figure > img {
-  transition: 1s;
+  transition: 0.4s;
+  filter: grayscale(100%);
 }
 .blog > div:nth-of-type(2) > section > figure > figcaption {
   right: 0;
@@ -569,6 +577,3 @@ form > div textarea {
 
 /* 
  A well-designed website should not only look attractive and be aesthetically pleasing, but it should also be intuitive, user-friendly, and easily navigable. In other words, good design should be both aesthetically appealing and functional.I believ that a website's design should be focused on solving the user's problems and making their experience as seamless as possible. *//*# sourceMappingURL=styleScss.css.map */
-
-
-
